@@ -1,11 +1,13 @@
-/* Basislayout */
+
+header {
+    color: rgb(0, 195, 227);
+    text-align: center;
+}
 
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
-    
-    color: #303030;
+    color: black;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -33,34 +35,11 @@ footer {
     padding-bottom: 10px;
 }
 
-
-/* specifieke stijlen */
-
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-}
-
-.smalltext {
-    font-size: 0.7em;
-}
-
-a {
-    color: skyblue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-
-/* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: rgb(152, 152, 152);
     overflow: hidden;
 }
 
@@ -77,13 +56,125 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(255, 69, 84);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(255, 69, 84);
 }
 
+.logo{
+   margin: 0 auto;
+    width: 250px;
+    position: relative;
+    margin-right: 15px;
+}
 
+article {
+    text-align: justify;
+    text-color: white
+}
 
+img.logo{
+  float: left;
+  margin-right: 15px;
+}
 
+body{
+  background-image: url("afbeeldingen/achtergrond3.png");
+background-size: 110%
+}
+
+body{
+  text-color: red
+}
+
+.foto{
+   margin: 0 auto;
+    width: 200px;
+    position: relative;
+    margin-right: 15px;
+}
+
+img.foto{
+  float: left;
+  margin-right: 15px;
+}
+
+.Nintendo64{
+   margin: 0 auto;
+    width: 230px;
+    position: relative;
+    margin-right: 15px;
+    height: 200px
+}
+
+img.Nintendo64{
+  float: left;
+  margin-right: 15px;
+}
+
+.Wii{
+   margin: 0 auto;
+    width: 230px;
+    position: relative;
+    margin-right: 15px;
+    height: 200px
+}
+
+.Wii{
+  float: left;
+  margin-right: 15px;
+}
+
+.switch{
+   margin: 0 auto;
+    width: 230px;
+    position: relative;
+    margin-right: 15px;
+    height: 150px
+}
+
+.switch{
+  float: left;
+  margin-right: 15px;
+}
+
+.logo1{
+   margin: 0 auto;
+    width: 230px;
+    position: relative;
+    margin-right: 15px;
+    height: 200px
+}
+
+.logo1{
+  float: left;
+  margin-right: 15px;
+}
+
+.logo2{
+   margin: 0 auto;
+    width: 230px;
+    position: relative;
+    margin-right: 15px;
+    height: 80px
+}
+
+.logo2{
+  float: left;
+  margin-right: 15px;
+}
+
+.logo3{
+   margin: 0 auto;
+    width: 230px;
+    position: relative;
+    margin-right: 15px;
+    height: 80px
+}
+
+.logo3{
+  float: left;
+  margin-right: 15px;
+}
